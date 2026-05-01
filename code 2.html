@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Отзывы — AutoWash PRO</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
+        body { background: #f8f9fa; padding-top: 100px; }
+        
+        header {
+            background: #fff; padding: 15px 5%; display: flex; justify-content: space-between;
+            align-items: center; position: fixed; width: 100%; top: 0; z-index: 1000; box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .logo { font-size: 24px; font-weight: 800; color: #2c3e50; text-decoration: none; }
+        .logo span { color: #3498db; }
+        nav ul { display: flex; list-style: none; }
+        nav ul li { margin-left: 20px; }
+        nav ul li a { text-decoration: none; color: #555; font-weight: 600; }
+
+        .container { max-width: 800px; margin: 0 auto; padding: 20px; }
+        h1 { text-align: center; color: #2c3e50; margin-bottom: 40px; }
+
+        .review-card {
+            background: #fff; padding: 25px; border-radius: 10px; margin-bottom: 20px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05); border-left: 5px solid #3498db;
+        }
+        .review-header { display: flex; justify-content: space-between; margin-bottom: 10px; }
+        .author { font-weight: bold; font-size: 1.1rem; }
+        .stars { color: #f1c40f; }
+        .date { color: #999; font-size: 0.9rem; }
+        
+        footer { background: #2c3e50; color: #fff; padding: 30px; text-align: center; margin-top: 50px; }
+        .back-link { display: inline-block; margin-bottom: 20px; color: #3498db; text-decoration: none; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <a href="index.html" class="logo">Auto<span>Wash</span> PRO</a>
+        <nav>
+            <ul>
+                <li><a href="index.html#services">Услуги</a></li>
+                <li><a href="index.html#gallery">Галерея</a></li>
+                <li><a href="reviews.html" style="color: #3498db;">Отзывы</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <a href="index.html" class="back-link">&larr; На главную</a>
+        <h1>Отзывы наших клиентов</h1>
+
+        <div class="review-card">
+            <div class="review-header">
+                <span class="author">Алексей М.</span>
+                <span class="stars">★★★★★</span>
+            </div>
+            <p>"Лучшая мойка в городе! Делал химчистку салона, машина как из салона. Персонал вежливый, цена адекватная."</p>
+            <div class="date">15 апреля 2026</div>
+        </div>
+
+        <div class="review-card">
+            <div class="review-header">
+                <span class="author">Мария С.</span>
+                <span class="stars">★★★★★</span>
+            </div>
+            <p>"Приезжаю сюда постоянно на стандартную мойку. Всегда быстро и очень чисто. Рекомендую!"</p>
+            <div class="date">10 апреля 2026</div>
+        </div>
+
+        <div class="review-card">
+            <div class="review-header">
+                <span class="author">Дмитрий П.</span>
+                <span class="stars">★★★★☆</span>
+            </div>
+            <p>"Полировка выполнена отлично. Сняли одну звезду за небольшую очередь, но результат того стоил."</p>
+            <div class="date">2 апреля 2026</div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 AutoWash PRO. Все права защищены.</p>
+    </footer>
+
+</body>
+</html>
